@@ -25,3 +25,6 @@ store.annual_revenue = "190000"
 store.mens_apparel = "true"
 store.womens_apparel = "false"
 store.save
+
+count = Store.count
+puts "Number of stores: #{count}"
